@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on </title>
+    <link>http://blog.eriksunde.com/tags/personal/</link>
+    <description>Recent content in Personal on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 09 Oct 2016 10:45:15 +0200</lastBuildDate>
+    <atom:link href="http://blog.eriksunde.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About me</title>
+      <link>http://blog.eriksunde.com/about/</link>
+      <pubDate>Sun, 09 Oct 2016 10:45:15 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/about/</guid>
+      <description>&lt;p&gt;A father of one working as a Operations manager at &lt;a href=&#34;https://enonic.com&#34;&gt;Enonic&lt;/a&gt; and lives in Oslo, Norway.&lt;/p&gt;
+
+&lt;p&gt;At daytime I manage Enonic&amp;rsquo;s Hosting environment and sharing&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
