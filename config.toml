@@ -1,0 +1,31 @@
+theme = "eriksunde.com-theme-redlounge"
+baseurl = "http://blog.eriksunde.com"
+
+[params]
+    sidebartitle = "Blog"
+    sidebartagline = "Thoughts and rambelings of Erik Kaareng-Sunde"
+    sidebarphoto = "/images/me.jpg"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts"
+
+[[menu.main]]
+    name = "Tips'n'Tricks"
+    url = "/tips"
+
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects"
+
+
+[[menu.social]]
+	pre = "<i class='fa fa-twitter'></i>"
+    url = "http://www.twitter.com/drerik"
+    identifier = "twitter"
+
+[[menu.social]]
+	pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/drerik"
+    identifier = "github"
