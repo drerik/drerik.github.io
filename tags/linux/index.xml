@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>http://blog.eriksunde.com/posts/</link>
-    <description>Recent content on </description>
+    <title>Linux on </title>
+    <link>http://blog.eriksunde.com/tags/linux/</link>
+    <description>Recent content in Linux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 02 Jul 2019 22:30:52 +0200</lastBuildDate>
     
-	<atom:link href="http://blog.eriksunde.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.eriksunde.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

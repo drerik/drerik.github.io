@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.eriksunde.com/posts/linux_timelapse/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.eriksunde.com/about/</loc>
     <lastmod>2019-07-02T21:04:15+02:00</lastmod>
   </url>
@@ -14,12 +19,13 @@
   
   <url>
     <loc>http://blog.eriksunde.com/</loc>
-    <lastmod>2019-07-02T21:04:15+02:00</lastmod>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.eriksunde.com/posts/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
   </url>
   
   <url>
@@ -29,21 +35,43 @@
   
   <url>
     <loc>http://blog.eriksunde.com/tags/development/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.eriksunde.com/categories/development/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.eriksunde.com/tags/ffmpeg/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.eriksunde.com/tags/golang/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.eriksunde.com/categories/golang/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.eriksunde.com/tags/linux/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.eriksunde.com/categories/linux/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -84,8 +112,20 @@
   </url>
   
   <url>
+    <loc>http://blog.eriksunde.com/categories/photo/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.eriksunde.com/tags/</loc>
-    <lastmod>2019-07-02T20:45:15+02:00</lastmod>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.eriksunde.com/tags/timelapse/</loc>
+    <lastmod>2019-07-02T22:30:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   

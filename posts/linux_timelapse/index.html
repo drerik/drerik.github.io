@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <title>
-    About me // 
+    Making timelaps photos with ffmpeg on Linux // 
   </title>
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -11,16 +11,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<meta name="description" content="Page about me">
+<meta name="description" content="Making timelaps with ffmpeg on linux">
 <meta name="keywords" content="">
 <meta name="author" content="">
 <meta name="generator" content="Hugo 0.40.1" />
 
-  <meta property="og:title" content="About me" />
-<meta property="og:description" content="Page about me" />
+  <meta property="og:title" content="Making timelaps photos with ffmpeg on Linux" />
+<meta property="og:description" content="Making timelaps with ffmpeg on linux" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:url" content="http://blog.eriksunde.com/about/" />
+<meta property="og:url" content="http://blog.eriksunde.com/posts/linux_timelapse/" />
 
 
   
@@ -114,10 +114,25 @@
 
 		
 			
+		    <div id="toc" class="pure-u-1 pure-u-md-1-4">
+				<small class="toc-label">Contents</small>
+		   	 	<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#taking-a-picture-with-ffmpeg">Taking a picture with ffmpeg</a></li>
+<li><a href="#taking-pictures-at-intervals">Taking pictures at intervals</a></li>
+<li><a href="#creating-a-video-of-a-set-of-images">Creating a video of a set of images</a></li>
+<li><a href="#references">References</a></li>
+</ul></li>
+</ul>
+</nav>
+		    </div>
+		    
 	    
   		<section class="post">
             <h1 class="post-title">
-              <a href="/about/">About me</a>
+              <a href="/posts/linux_timelapse/">Making timelaps photos with ffmpeg on Linux</a>
             </h1>
             <h3 class="post-subtitle">
             	
@@ -135,9 +150,9 @@
 			
 				<div class="post-categories">
 				
-					<a class="post-category post-category-personal" href="http://blog.eriksunde.com/categories/personal">Personal</a>
+					<a class="post-category post-category-linux" href="http://blog.eriksunde.com/categories/linux">Linux</a>
 				
-					<a class="post-category post-category-non-technical" href="http://blog.eriksunde.com/categories/non-technical">Non technical</a>
+					<a class="post-category post-category-photo" href="http://blog.eriksunde.com/categories/photo">Photo</a>
 				
 				</div>
 			
@@ -146,14 +161,43 @@
 
 			
 
-            <p>So this is the about me page&hellip; Aka the hard part.. ;)</p>
+            
 
-<p>A happily married to my wife and father of a mini me. Loves food, music, technology and thinkering, playing with stuff like 3d printer and other tools that helps me make stuff.</p>
+<h2 id="taking-a-picture-with-ffmpeg">Taking a picture with ffmpeg</h2>
 
-<p>Working as a Senior System Administrator Consultant at <a href="http://redpil-linpro.com">Redpill Linpro</a>.<br />
-My Current obsessions at work is automation and orchistration and cloud environments.</p>
+<p>Taking a picture with ffmpeg is relative easy. Her we take a picture with 1080p resolution from the webcam at the <code>/dev/video2</code> device.</p>
 
-<p>All typos, bad english and opinions are my own etc, etc&hellip;.</p>
+<pre><code class="language-bash">ffmpeg -f video4linux2 -s 1920x1080 -i /dev/video2 -vframes 1 picture.jpg
+</code></pre>
+
+<h2 id="taking-pictures-at-intervals">Taking pictures at intervals</h2>
+
+<p>While not perfect, you can make a timelapse with a webcam and ffmpeg to take photos at a set intervall. A <code>while true</code> loop with a sleep command to pause the loop between each image.</p>
+
+<pre><code class="language-bash">#!/bin/bash
+while true
+do
+	ffmpeg -f video4linux2 -s 1920x1080 -i /dev/video2 -vframes 1 timelapse-$(date +%Y-%m-%d-%H-%M-%S).jpg
+	sleep 1
+done
+
+</code></pre>
+
+<h2 id="creating-a-video-of-a-set-of-images">Creating a video of a set of images</h2>
+
+<p>Ok, so now we have a set of images we want to stich togeter to a movie. Againg we use ffmpeg:</p>
+
+<pre><code class="language-bash">ffmpeg -framerate 5 -pattern_type glob -i 'timelapse-*.jpg' -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
+</code></pre>
+
+<p>You can adjust the speed of the move by adjusting the framerate ( here it set to 5 images per second).</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="http://ffmpeg.org/ffmpeg.html">http://ffmpeg.org/ffmpeg.html</a></li>
+<li><a href="http://www.netinstructions.com/creating-automatic-timelapses-with-webcams-on-linux/">http://www.netinstructions.com/creating-automatic-timelapses-with-webcams-on-linux/</a></li>
+</ul>
 
 	
 			
@@ -162,9 +206,11 @@ My Current obsessions at work is automation and orchistration and cloud environm
 				<div class="tags-list">
 					<span class="dark-red">Tags</span><span class="decorative-marker">//</span>
 					
-	                <a class="post-tag post-tag-personal" href="http://blog.eriksunde.com/tags/personal">personal</a>,
+	                <a class="post-tag post-tag-linux" href="http://blog.eriksunde.com/tags/linux">Linux</a>,
 	                
-	                <a class="post-tag post-tag-notech" href="http://blog.eriksunde.com/tags/notech">notech</a>,
+	                <a class="post-tag post-tag-timelapse" href="http://blog.eriksunde.com/tags/timelapse">timelapse</a>,
+	                
+	                <a class="post-tag post-tag-ffmpeg" href="http://blog.eriksunde.com/tags/ffmpeg">ffmpeg</a>,
 	                
 				</div>
 			
@@ -173,16 +219,11 @@ My Current obsessions at work is automation and orchistration and cloud environm
 				<div class="paging">
 					<span class="paging-label">More Reading</span>
 					
-					<div class="paging-newer">
-						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
-						<a class="paging-link" href="/posts/linux_timelapse/">Making timelaps photos with ffmpeg on Linux</a>
-		            </div>
-		            
 
 					
 					<div class="paging-older">
 						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
-			            <a class="paging-link" href="/tips/">My Tips and tricks</a>
+			            <a class="paging-link" href="/about/">About me</a>
 		            </div>
 		            
 	            </div>

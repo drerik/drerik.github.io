@@ -5,10 +5,20 @@
     <link>http://blog.eriksunde.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Jul 2019 21:04:15 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 22:30:52 +0200</lastBuildDate>
     
 	<atom:link href="http://blog.eriksunde.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making timelaps photos with ffmpeg on Linux</title>
+      <link>http://blog.eriksunde.com/posts/linux_timelapse/</link>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/posts/linux_timelapse/</guid>
+      <description>Taking a picture with ffmpeg Taking a picture with ffmpeg is relative easy. Her we take a picture with 1080p resolution from the webcam at the /dev/video2 device.
+ffmpeg -f video4linux2 -s 1920x1080 -i /dev/video2 -vframes 1 picture.jpg  Taking pictures at intervals While not perfect, you can make a timelapse with a webcam and ffmpeg to take photos at a set intervall. A while true loop with a sleep command to pause the loop between each image.</description>
+    </item>
     
     <item>
       <title>About me</title>

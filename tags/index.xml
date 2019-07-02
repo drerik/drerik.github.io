@@ -5,7 +5,7 @@
     <link>http://blog.eriksunde.com/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Jul 2019 20:45:15 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 22:30:52 +0200</lastBuildDate>
     
 	<atom:link href="http://blog.eriksunde.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,18 +13,36 @@
     <item>
       <title>Development</title>
       <link>http://blog.eriksunde.com/tags/development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
       
       <guid>http://blog.eriksunde.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Ffmpeg</title>
+      <link>http://blog.eriksunde.com/tags/ffmpeg/</link>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Golang</title>
       <link>http://blog.eriksunde.com/tags/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
       
       <guid>http://blog.eriksunde.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://blog.eriksunde.com/tags/linux/</link>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -52,6 +70,15 @@
       <pubDate>Tue, 02 Jul 2019 21:04:15 +0200</pubDate>
       
       <guid>http://blog.eriksunde.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timelapse</title>
+      <link>http://blog.eriksunde.com/tags/timelapse/</link>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/tags/timelapse/</guid>
       <description></description>
     </item>
     

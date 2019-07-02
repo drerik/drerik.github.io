@@ -12,7 +12,7 @@
     <item>
       <title>Development</title>
       <link>http://blog.eriksunde.com/categories/development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
       
       <guid>http://blog.eriksunde.com/categories/development/</guid>
       <description></description>
@@ -21,9 +21,18 @@
     <item>
       <title>Golang</title>
       <link>http://blog.eriksunde.com/categories/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
       
       <guid>http://blog.eriksunde.com/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://blog.eriksunde.com/categories/linux/</link>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/categories/linux/</guid>
       <description></description>
     </item>
     
@@ -51,6 +60,15 @@
       <pubDate>Tue, 02 Jul 2019 21:04:15 +0200</pubDate>
       
       <guid>http://blog.eriksunde.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photo</title>
+      <link>http://blog.eriksunde.com/categories/photo/</link>
+      <pubDate>Tue, 02 Jul 2019 22:30:52 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/categories/photo/</guid>
       <description></description>
     </item>
     

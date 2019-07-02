@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <title>
-    About me // 
+    Timelapse // 
   </title>
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -11,16 +11,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<meta name="description" content="Page about me">
+<meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
 <meta name="generator" content="Hugo 0.40.1" />
 
-  <meta property="og:title" content="About me" />
-<meta property="og:description" content="Page about me" />
+  <meta property="og:title" content="Timelapse" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:url" content="http://blog.eriksunde.com/about/" />
+<meta property="og:url" content="http://blog.eriksunde.com/tags/timelapse/" />
 
 
   
@@ -58,8 +58,6 @@
 </head>
 
 <body>
-	
-
 	<div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
   <div class="header">
@@ -105,93 +103,54 @@
   </div>
 </div>
 
-	
-	
 
     <div class="content pure-u-1 pure-u-md-3-4">
-		<a name="top"></a>
-		
+      <a name="top"></a>
+      
 
-		
-			
-	    
-  		<section class="post">
-            <h1 class="post-title">
-              <a href="/about/">About me</a>
-            </h1>
-            <h3 class="post-subtitle">
-            	
-            </h3>
-            
-            	<span class="post-date">
-                	<span class="post-date-day"><sup>2</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jul</span> <span class="post-date-year">2019</span>
-            	</span>
-            	
-            
-            	
-            
-
-			
-			
-				<div class="post-categories">
-				
-					<a class="post-category post-category-personal" href="http://blog.eriksunde.com/categories/personal">Personal</a>
-				
-					<a class="post-category post-category-non-technical" href="http://blog.eriksunde.com/categories/non-technical">Non technical</a>
-				
-				</div>
-			
-
-			
-
-			
-
-            <p>So this is the about me page&hellip; Aka the hard part.. ;)</p>
-
-<p>A happily married to my wife and father of a mini me. Loves food, music, technology and thinkering, playing with stuff like 3d printer and other tools that helps me make stuff.</p>
-
-<p>Working as a Senior System Administrator Consultant at <a href="http://redpil-linpro.com">Redpill Linpro</a>.<br />
-My Current obsessions at work is automation and orchistration and cloud environments.</p>
-
-<p>All typos, bad english and opinions are my own etc, etc&hellip;.</p>
-
-	
-			
-
-			
-				<div class="tags-list">
-					<span class="dark-red">Tags</span><span class="decorative-marker">//</span>
-					
-	                <a class="post-tag post-tag-personal" href="http://blog.eriksunde.com/tags/personal">personal</a>,
-	                
-	                <a class="post-tag post-tag-notech" href="http://blog.eriksunde.com/tags/notech">notech</a>,
-	                
-				</div>
-			
-
-			
-				<div class="paging">
-					<span class="paging-label">More Reading</span>
-					
-					<div class="paging-newer">
-						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
-						<a class="paging-link" href="/posts/linux_timelapse/">Making timelaps photos with ffmpeg on Linux</a>
-		            </div>
-		            
-
-					
-					<div class="paging-older">
-						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
-			            <a class="paging-link" href="/tips/">My Tips and tricks</a>
-		            </div>
-		            
-	            </div>
-            
-          </section>
-          
-          	
-          
+      <div class="posts">
         
+          <section  class="post">
+            <header class="post-header">
+            
+            <h1 class="post-title">
+              <a href="/posts/linux_timelapse/">Making timelaps photos with ffmpeg on Linux</a>
+            </h1>
+            </header>
+            <p class="post-meta">
+            	
+		          <span class="post-date">
+		            <span class="post-date-day"><sup>2</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jul</span> <span class="post-date-year">2019</span>
+		          </span>
+      				
+      				
+      					
+      				
+              
+                <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>1 min. read</em></span>
+              
+      				
+      					<div class="post-categories">
+				        
+      					
+					        <a class="post-category post-category-linux" href="http://blog.eriksunde.com/categories/linux">Linux</a>
+      					
+					        <a class="post-category post-category-photo" href="http://blog.eriksunde.com/categories/photo">Photo</a>
+      					
+      					</div>
+      				
+            </p>
+            <article class="post-summary">
+            	Taking a picture with ffmpeg Taking a picture with ffmpeg is relative easy. Her we take a picture with 1080p resolution from the webcam at the /dev/video2 device.
+ffmpeg -f video4linux2 -s 1920x1080 -i /dev/video2 -vframes 1 picture.jpg  Taking pictures at intervals While not perfect, you can make a timelapse with a webcam and ffmpeg to take photos at a set intervall. A while true loop with a sleep command to pause the loop between each image.
+            </article>
+			<div class="read-more-link">
+				<a href="/posts/linux_timelapse/"><span class="read-more-slashes">//</span>Read More...</a>
+			</div>
+          </section>
+        
+      </div>
+
       <div class="footer">
 	<hr class="thin" />
 	<div class="pure-menu pure-menu-horizontal pure-menu-open">
@@ -204,10 +163,6 @@ My Current obsessions at work is automation and orchistration and cloud environm
 </div>
     </div>
   </div>
-	
-
-	
-
   
 </body>
 </html>
