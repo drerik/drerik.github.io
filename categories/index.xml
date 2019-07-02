@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on </title>
+    <link>http://blog.eriksunde.com/categories/</link>
+    <description>Recent content in Categories on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://blog.eriksunde.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development</title>
+      <link>http://blog.eriksunde.com/categories/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.eriksunde.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://blog.eriksunde.com/categories/golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.eriksunde.com/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>http://blog.eriksunde.com/categories/misc/</link>
+      <pubDate>Tue, 02 Jul 2019 20:45:15 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/categories/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non Technical</title>
+      <link>http://blog.eriksunde.com/categories/non-technical/</link>
+      <pubDate>Tue, 02 Jul 2019 21:04:15 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/categories/non-technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>http://blog.eriksunde.com/categories/personal/</link>
+      <pubDate>Tue, 02 Jul 2019 21:04:15 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>http://blog.eriksunde.com/categories/tips/</link>
+      <pubDate>Tue, 02 Jul 2019 20:45:15 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/categories/tips/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

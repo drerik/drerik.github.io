@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on </title>
+    <link>http://blog.eriksunde.com/categories/personal/</link>
+    <description>Recent content in Personal on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 02 Jul 2019 21:04:15 +0200</lastBuildDate>
+    
+	<atom:link href="http://blog.eriksunde.com/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>http://blog.eriksunde.com/about/</link>
+      <pubDate>Tue, 02 Jul 2019 21:04:15 +0200</pubDate>
+      
+      <guid>http://blog.eriksunde.com/about/</guid>
+      <description>So this is the about me page&amp;hellip; Aka the hard part.. ;)
+A happily married to my wife and father of a mini me. Loves food, music, technology and thinkering, playing with stuff like 3d printer and other tools that helps me make stuff.
+Working as a Senior System Administrator Consultant at Redpill Linpro.
+My Current obsessions at work is automation and orchistration and cloud environments.
+All typos, bad english and opinions are my own etc, etc&amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>
